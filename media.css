@@ -1,0 +1,458 @@
+      .flex-gap {
+display: inline-flex;
+flex-wrap: wrap;
+}
+      #background1{
+            background-image: url('1 (1).jpg');
+           height: 50%;
+           width: 50%;
+        }
+        #background2{
+            background-image: url('3 (2).jpg');
+            height: 50%;
+            width: 50%;
+        }
+        .font{
+          font-family: 'Merriweather', serif;
+        }
+      .centered{
+       position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+      }
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+      .log{
+        max-height: 101px;
+        max-width: 101px;
+      }
+      .dropdown:hover .dropdown-menu {
+  display: block;
+   }
+.dropdown-toggle::after { 
+            content: none; 
+        } 
+        a{
+        color: inherit;
+  text-decoration: inherit;
+}
+.img-con{
+width: 100%;
+height: 100%;
+}
+.fnt{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@keyframes first{
+  from {
+    transform: translateX(10);
+  }
+  to {
+    transform: translateX(-1%);
+  }
+}
+.anime{
+  animation-name: first;
+  animation-duration: 0.5s;
+}
+@keyframes second{
+  from {
+    transform: translateX(-20%);
+  }
+  to {
+    transform: translateX(-1);
+  }
+}
+.animate{
+  animation-name: second;
+  animation-duration: 0.5s;
+}
+@keyframes seconds{
+  from {
+    transform: translateX(-20%);
+  }
+  to {
+    transform: translateX(-1);
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width:768px) {
+    
+    .anime{
+      font-size: 35px!important;
+      
+    }
+    .conten{
+      display: none;
+    }
+    .conti{
+      font-size: 50px!important;
+      width:50px;
+      padding-left: 100px!important;
+    }
+    .carou{
+      height:150px;
+      width: 100px;
+      background-image:url("pic1.jpg") ;
+     background-size: cover;
+      margin-bottom: 500px;
+     
+    }
+    .carou1{
+      height:150px;
+      width: 100px;
+      background-image:url("pic2.jpg") ;
+      background-size: cover;
+      margin-bottom: 500px;
+    }
+    .carou2{
+      height:150px;
+      width: 100px;
+      background-image:url("pic3.jpg") ;
+      background-size: cover;
+      margin-bottom: 500px;
+    }
+    .carou3{
+      height:150px;
+      width: 100px;
+      background-image:url("pic4.jpg") ;
+      background-size: cover;
+      margin-bottom: 500px;
+    }
+    .carou4{
+      height:150px;
+      width: 100px;
+      background-image:url("pic5.jpg") ;
+      background-size: cover;
+      margin-bottom: 500px;
+    }
+    .carou5{
+      height:150px;
+      width: 100px;
+      background-image:url("pic6.jpg") ;
+      background-size: cover;
+      margin-bottom: 500px;
+    }
+    .pro{
+      margin-top: 1350px;
+      margin-bottom:2000px;
+      padding-right:0px ;
+      padding-left:0px ;
+    }
+    .item{
+      align-items: center;
+    }
+    .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+  }
+  @media only screen and (min-width: 2559px) {
+    .canva25{
+      padding-right: 150px!important;
+      margin-left: 100px!important;
+    }
+    .nav25{
+    font-size: 30px;
+  }
+  .fnt{
+    padding-right: 100px!important;
+  }
+  .corner25{
+   margin-left: 0px!important;
+  
+  }
+  .navbar-collapse{
+    display: flex;
+   justify-content:space-around;
+  }
+  
+  }
+  @media only screen and (min-width:1025px) and (max-width:1440px){
+    .fc{
+      margin-left: 100px;
+    }
+    .four{
+      margin-top: 150px!important;
+      
+    }
+    .hei{
+      margin-top: 50px;
+      height: 700px!important;
+    }
+        .anime{
+          font-size: 50px!important;
+          
+        }
+        
+        .conti{
+          font-size: 50px!important;
+          width:50px;
+          padding-left: 60px!important;
+        }
+        .itemm{
+          text-align: center;
+        }
+        .pro{
+          padding-right:0px ;
+          padding-left:0px ;
+        }
+        .item{
+          align-items: center;
+        }
+      
+      
+  }
+  @media screen and (max-width:768px) {
+    .fc{
+      height: 950px;
+    }
+    .corner25{
+      display: none;
+    }
+    .navb{
+      flex-wrap: wrap;
+    }
+    .item{
+      padding: 0px;
+      border-radius: 0px;
+      width:150px;
+    }
+    .hei{
+      height: 1000px!important;
+    }
+    .twoside{
+      margin-top: 300px;
+    }
+   
+    .col-6 {
+      flex-grow: 1;
+      width: 50%;
+      /* background: none; */
+      
+    }
+    .corner{
+        display: none;
+    }
+        .ci{
+          height:400px!important;
+          
+        }
+        .anime{
+          font-size: 50px!important;
+          
+        }
+        .conten{
+          display: none;
+        }
+        .conti{
+          font-size: 50px!important;
+          width:50px;
+          padding-left: 100px!important;
+        }
+        .carou{
+          height:350px;
+          width: 300px;
+          background-image:url("pic1.jpg") ;
+          background-repeat: no-repeat;
+         background-size: cover;
+          margin-bottom: 500px;
+         
+        }
+        .carou1{
+          height:300px;
+          width: 350px;
+          background-image:url("pic2.jpg") ;
+          background-size: cover;
+          margin-bottom: 500px;
+        }
+        .carou2{
+          height:350px;
+          width: 300px;
+          background-image:url("pic3.jpg") ;
+          background-size: cover;
+          margin-bottom: 500px;
+        }
+        .carou3{
+          height:350px;
+          width: 300px;
+          background-image:url("pic4.jpg") ;
+          background-size: cover;
+          margin-bottom: 500px;
+        }
+        .carou4{
+          height:350px;
+          width: 300px;
+          background-image:url("pic5.jpg") ;
+          background-size: cover;
+          margin-bottom: 500px;
+        }
+        .carou5{
+          height:350px;
+          width: 300px;
+          background-image:url("pic6.jpg") ;
+          background-size: cover;
+          margin-bottom: 500px;
+        }
+        .pro{
+          display: flex;
+          padding-right:0px ;
+          padding-left:0px ;
+          margin: 0px;
+        }
+        .item{
+          align-items: center;
+        }
+   
+      .cont{
+        padding-left: 500px!important;
+      }
+    
+  }
+  @media screen and (max-width:426px){
+    .secblock{
+      margin-top: 0px!important;
+    }
+    .fc{
+      width: 425px!important;
+    }
+    .twoside{
+      margin-top: 1800px!important;
+    }
+    .couples{
+      margin-top: 100px;
+      width: 425px;
+    }
+    .ci{
+      height:100px!important;
+    }
+    .anime{
+      font-size: 50px!important;
+      
+    }
+    
+    .conti{
+      display: none;
+    }
+    .carou{
+      height:350px!important;
+      width: 350px!important;
+      background-image:url("pic1.jpg") ;
+      background-repeat: no-repeat;
+     background-size: cover;
+      margin-bottom: 500px;
+     
+    }
+    .carou1{
+      height:350px;
+      width: 350px;
+      background-image:url("pic2.jpg") ;
+      background-size: cover;
+      margin-bottom: 500px;
+    }
+    .carou2{
+      height:350px;
+      width: 300px;
+      background-image:url("pic3.jpg") ;
+      background-size: cover;
+      margin-bottom: 500px;
+    }
+    .carou3{
+      height:350px;
+      width: 300px;
+      background-image:url("pic4.jpg") ;
+      background-size: cover;
+      margin-bottom: 500px;
+    }
+    .carou4{
+      height:350px;
+      width: 300px;
+      background-image:url("pic5.jpg") ;
+      background-size: cover;
+      margin-bottom: 500px;
+    }
+    .carou5{
+      height:350px;
+      width: 300px;
+      background-image:url("pic6.jpg") ;
+      background-size: cover;
+      margin-bottom: 500px;
+    }
+    .pro{
+      margin-top: 1350px;
+      margin-bottom:2000px;
+      padding-right:0px ;
+      padding-left:0px ;
+    }
+    .item{
+      align-items: center;
+    }
+  .ci{
+    height: 800px;
+    margin-bottom: 300px;
+  }
+  .cont{
+    display: none;
+  }
+  
+  }
+  @media screen and(max-width:376px) {
+    .tops{
+      width: 1000px!important;
+    }
+  }
+ @media screen and (max-width:512px){
+  .col-6 {
+    flex-grow: 1;
+    width: 50%;
+    /* background: none; */
+    
+  }
+  .fc{
+    width: 30rem;
+  }
+  .tops{
+    padding-left: 0px;
+    padding-right:0px;
+    text-align: center;
+  }
+ }
+ @media all and (min-width: 992px) {
+	.navbar .dropdown-menu-end{ right:0; left: auto;  }
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #060505;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: 0.8s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}
+@media screen and (max-width:1024px){
+  .fc{
+    height: 950px;
+  }
+  .corner25{
+    display: none;
+  }
+  .navb{
+    flex-wrap: wrap;
+  }
+  .pro{
+    display: flex!important;
+    justify-content: space-evenly;
+  }
+  .item{
+    padding: 0px;
+    border-radius: 0px;
+    width:150px;
+  }
+  .hei{
+    height: 1200px!important;
+  }
+}
